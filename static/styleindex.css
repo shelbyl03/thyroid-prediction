@@ -1,0 +1,154 @@
+/* General Styling */
+body {
+    scroll-behavior: smooth;
+    font-family: 'Poppins', sans-serif;
+    background-color: #f6f5f7;
+    margin: 0;
+  }
+  
+  section {
+    padding: 60px 20px;
+  }
+  
+  /* Navbar Styling */
+  .navbar {
+    background-color:rgb(248, 131, 121);
+    margin-bottom: 20px;
+    border-radius: 0 0 10px 10px;
+  }
+  
+  .navbar-brand {
+    font-weight: bold;
+    font-size: 24px;
+    color: #fff;
+  }
+  
+  .navbar-nav .nav-link {
+    color: white 
+  }
+  
+  .navbar-nav .nav-link.active {
+    font-weight: bold;
+    color: #fff;
+  }
+  
+  /* Container Styling */
+  .container {
+    background-color: #fff;
+    max-width: 900px;
+    border-radius: 10px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    padding: 30px;
+  }
+  
+  /* Form Styling */
+  .form-container {
+    padding: 30px;
+  }
+  
+  .title {
+    margin-bottom: 20px;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+  }
+  
+  .input-field {
+    position: relative;
+    margin-bottom: 15px;
+  }
+  
+  .input-field i {
+    position: absolute;
+    left: 15px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #333;
+  }
+  
+  .input-field input {
+    padding: 10px 40px;
+    width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 25px;
+    outline: none;
+  }
+  
+  /* Button Styling */
+  .btn {
+    background-color:rgb(248, 131, 121);
+    color: white;
+    border: none;
+    border-radius: 25px;
+    padding: 10px 20px;
+    width: 100%;
+    cursor: pointer;
+    transition: all 0.3s;
+  }
+  
+  .btn:hover {
+    background-color: rgb(220, 20, 60);
+  }
+  
+  /* Prediction Button Styling */
+  .btn-prediction {
+    background-color:rgb(248, 131, 121);
+    color: white;
+    padding: 15px 30px;
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: uppercase;
+    border-radius: 50px;
+    text-decoration: none;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+  }
+  
+  .btn-prediction:hover {
+    background-color:rgb(220, 20, 60);
+    transform: scale(1.05);
+  }
+  
+  .btn-prediction:focus {
+    outline: none;
+  }
+  
+  /* Social Icons Styling */
+  .social-icons a {
+    margin: 0 10px;
+    color: rgb(248, 131, 121);
+    font-size: 20px;
+    text-decoration: none;
+  }
+  
+  /* Nav Tabs Styling */
+  .nav-tabs .nav-link {
+    color: #6c63ff;
+    font-weight: bold;
+  }
+  
+  .nav-tabs .nav-link.active {
+    background-color: rgb(248, 131, 121);
+    color: white;
+    border: none;
+  }
+  
+  /* Contact Section */
+  #contact ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  #contact ul li {
+    padding: 10px;
+    color: #555;
+  }
+  
+  /* Footer Styling */
+  footer {
+    background-color: rgb(248, 131, 121);
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+  }
+  
